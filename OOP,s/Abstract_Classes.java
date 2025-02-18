@@ -16,7 +16,7 @@ public class Abstract_Classes {
         p1.eat();
         p1.walk();
 
-    }.
+    }
 
 }
 
@@ -24,7 +24,7 @@ abstract class Animal {
 
     String color;
 
-    //this property will be common in all classes
+    // this property will be common in all classes
     Animal() {
         color = "brown";
     }
@@ -32,38 +32,33 @@ abstract class Animal {
     abstract void walk();
 }
 
-class Horse extends Animal{
+class Horse extends Animal {
 
-    //now it is compulsory to use walk function
+    // now it is compulsory to use walk function
 
-    void eat(){
+    void eat() {
         System.out.println("Eats grass");
     }
 
-    void walk(){
+    void walk() {
         System.out.println("Walks on four legs");
     }
 
-       
 }
 
-class Hen extends Animal{
+class Hen extends Animal {
 
-
-
-    void eat(){
+    void eat() {
         System.out.println("Eats insects");
     }
 
-    void walk(){
+    void walk() {
 
         System.out.println("Walks on 2 legs");
-        
+
     }
 
-    void changeColor(){
+    void changeColor() {
         color = "blue";
     }
 }
-
-
