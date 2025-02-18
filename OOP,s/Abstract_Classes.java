@@ -16,7 +16,7 @@ public class Abstract_Classes {
         p1.eat();
         p1.walk();
 
-    }
+    }.
 
 }
 
